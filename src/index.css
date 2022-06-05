@@ -7,9 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body { height: 100% }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.photo {
+  height: 100px;
+  width: 100px;
+  margin-left: 5px;
+}
+
+.container {
+  padding: 30px 50px;
 }
 
 .navBarLink {
@@ -46,4 +58,21 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.footer-icon {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
 }
